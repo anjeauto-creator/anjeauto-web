@@ -68,3 +68,5 @@ footer a{color:var(--suave)}
 /* el logo tiene fondo negro: se funde con el fondo oscuro */
 .marca img,.logo-grande img{mix-blend-mode:lighten}
 @media (min-width:1000px){.servicios{grid-template-columns:repeat(5,1fr)}}
+table.horario td:last-child{white-space:nowrap;padding-left:12px}
+a[href^="tel:"],a[href^="mailto:"]{white-space:nowrap}
